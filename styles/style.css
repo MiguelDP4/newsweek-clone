@@ -1,0 +1,21 @@
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+  z-index: 5;
+}
+
+.red-header {
+  background-color: #f72210;
+}
+
+.red-header svg {
+  fill: white;
+}
+
+.white-header {
+  background-color: white;
+}
