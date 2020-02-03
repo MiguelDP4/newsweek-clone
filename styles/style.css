@@ -8,7 +8,30 @@ header {
   z-index: 5;
 }
 
+nav a {
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333;
+  border-right: #aaa 1px solid;
+}
+
+nav ul li:last-of-type a {
+  border-right: none;
+}
+
+nav a:hover {
+  color: #f72210;
+}
+
+.container-fluid, .container {
+  max-width: 1310px;
+}
+
 .red-header {
+  height: 95px;
+  padding: 20px 10px 15px;
   background-color: #f72210;
 }
 
@@ -16,6 +39,24 @@ header {
   fill: white;
 }
 
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 396px;
+  height: 60px;
+  padding: 10px 0; 
+  margin: 10px auto;
+  transform: translate(-50%, 0);
+}
+
 .white-header {
   background-color: white;
+}
+
+.search-button {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
