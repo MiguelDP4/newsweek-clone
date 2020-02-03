@@ -40,7 +40,7 @@ header {
   z-index: 5;
 }
 
-main div:first-child {
+main > div:first-child {
   background-color: white;
 }
 
@@ -164,4 +164,69 @@ nav a:hover {
 .category a {
   color: #f72210;
   text-decoration: none;
+}
+
+.related {
+  font: bold 16px/20px "Roboto Condensed", sans-serif;
+  color: black;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.related li {
+  border-top: 1px solid #d9d9d9;
+  padding: 10px 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.related li:last-of-type {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.related li a {
+  color: black;
+}
+
+.related li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.culture-travel {
+  background-color: #f4f5f6;
+}
+
+.culture-travel h2 a {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-stretch: 100%;
+}
+
+.culture-travel h2 a:hover {
+  text-decoration: none;
+}
+
+.culture-travel p {
+  color: rgba(39,39,39,.5);
+}
+
+.tag a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #272727;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.tag a:hover {
+  text-decoration: none;
+  background-color: #303536;
+  color: #c2d4d7;
 }
