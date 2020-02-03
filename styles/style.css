@@ -25,6 +25,10 @@ nav a:hover {
   color: #f72210;
 }
 
+.no-border {
+  border: none;
+}
+
 .container-fluid, .container {
   max-width: 1310px;
 }
