@@ -1,3 +1,8 @@
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
 body {
   background-color: #f4f5f6;
   color: #333;
@@ -49,10 +54,39 @@ nav a:hover {
   height: 95px;
   padding: 20px 10px 15px;
   background-color: #f72210;
+  position: relative;
 }
 
 .red-header svg {
   fill: white;
+}
+
+.red-header-content {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.red-header-content date{
+  color: white;
+}
+
+.sign-in-button {
+  color: white;
+  padding: 6px 10px 6px 12px;
+}
+
+.subscribe-button {
+  background-color: white;
+  color: #f72210;
+  padding: 6px 10px 6px 12px;
+}
+
+.subscribe-button svg {
+  width: 8px;
+  height: auto;
+  fill: #f72210;
+  padding-bottom: 4px;
 }
 
 .header-logo {
@@ -68,6 +102,7 @@ nav a:hover {
 
 .white-header {
   background-color: white;
+  border-bottom: solid 1px #f4f5f6;
 }
 
 .search-button {
