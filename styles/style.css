@@ -3,6 +3,27 @@ a {
   font-weight: bold;
 }
 
+h2 a {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+h3, h3 a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 700;
+  color: rgba(3,3,3, 0.4)
+}
+
 body {
   background-color: #f4f5f6;
   color: #333;
@@ -11,6 +32,10 @@ body {
 
 header {
   z-index: 5;
+}
+
+main div {
+  background-color: white;
 }
 
 nav::before {
@@ -110,4 +135,26 @@ nav a:hover {
   margin: 0;
   padding: 0;
   border: none;
+}
+
+.story img {
+  width: 100%;
+  height: auto;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,.9);
+  padding: 8px 15px 3px;
+}
+
+.category a {
+  color: #f72210;
+  text-decoration: none;
 }
