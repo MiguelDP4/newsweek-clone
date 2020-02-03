@@ -8,6 +8,18 @@ header {
   z-index: 5;
 }
 
+nav::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
 nav a {
   font-size: 21px;
   line-height: 24px;
