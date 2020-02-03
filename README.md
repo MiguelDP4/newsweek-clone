@@ -17,7 +17,7 @@
 
 👤 **Miguel Dubois (Mike)**
 
-- Github: [@githubhandle](https://github.com/MiguelDP4)
+- Github: [@MiguelDP4](https://github.com/MiguelDP4)
 
 ## 🤝 Contributing
 
