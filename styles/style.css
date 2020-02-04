@@ -117,10 +117,24 @@ nav a:hover {
   padding: 6px 10px 6px 12px;
 }
 
+.sign-in-button:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+}
+
 .subscribe-button {
   background-color: white;
   color: #f72210;
   padding: 6px 10px 6px 12px;
+}
+
+.subscribe-button:hover {
+  text-decoration: none;
+  color: #f72210;
 }
 
 .subscribe-button svg {
@@ -263,6 +277,10 @@ nav a:hover {
   display: none;
 }
 
+.opinion {
+  height: auto;
+}
+
 .opinion h2 {
   line-height: 0.5em;
 }
@@ -283,11 +301,85 @@ nav a:hover {
   color: #555;
 }
 
+.latest-news img {
+  width: 135px;
+  height: auto;
+}
+
+.latest-news h2 {
+  line-height: 0.5em;
+}
+
+.latest-news h2 a {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .red-header {
+    height: 50px;
+  }
+
+  .red-header-content date {
+    display: none;
+  }
+
+  .white-header {
+    display: none;
+  }
+
+  .header-logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 132px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    transform: translate(0, 0);
+  }
+
+  .sign-in-button {
+    position: absolute;
+    top: -17px;
+    right: 200px;
+  }
+
+  .subscribe-button {
+    position: absolute;
+    top: -19px;
+    right: 84px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    width: 44px;
+    top: -22px;
+    right: 22px;
+  }
+
+  .menu-icon svg rect {
+    fill: #fb9a94;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .other-story img {
     width: 258px;
   }
-  .more-stories-spacer {
+
+  .border-bottom-spacer {
     display: block;
+  }
+
+  .latest-news img {
+    width: 258px;
+    height: auto;
   }
 }
