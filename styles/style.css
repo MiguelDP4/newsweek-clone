@@ -82,6 +82,15 @@ nav a:hover {
   max-width: 1310px;
 }
 
+.scroll-overflow-container {
+  overflow: hidden;
+}
+
+.scroll-overflow {
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
 .red-header {
   height: 95px;
   padding: 20px 10px 15px;
@@ -197,11 +206,17 @@ nav a:hover {
   background-color: #f4f5f6;
 }
 
+.culture-travel h2 {
+  line-height: 0em;
+}
+
 .culture-travel h2 a {
   font-family: 'Lora', serif;
+  color: #333;
   font-weight: 400;
   font-size: 20px;
   font-stretch: 100%;
+  line-height: normal;
 }
 
 .culture-travel h2 a:hover {
@@ -229,4 +244,50 @@ nav a:hover {
   text-decoration: none;
   background-color: #303536;
   color: #c2d4d7;
+}
+
+.other-story-info h2 {
+  line-height: 0.5em;
+}
+
+.other-story-info h2 a{
+  font-size: 17px;
+}
+
+.other-story img {
+  width: 135px;
+  height: auto;
+}
+
+.more-stories-spacer {
+  display: none;
+}
+
+.opinion h2 {
+  line-height: 0.5em;
+}
+
+.opinion h2 a {
+  font-size: 15px;
+}
+
+.opinion h2 a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.opinion h4 {
+  font-family:"Roboto Condensed", sans-serif;
+  font-size:13px;
+  font-weight: bold;
+  color: #555;
+}
+
+@media screen and (max-width: 767px) {
+  .other-story img {
+    width: 258px;
+  }
+  .more-stories-spacer {
+    display: block;
+  }
 }
