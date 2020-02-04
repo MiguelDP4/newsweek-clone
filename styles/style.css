@@ -40,10 +40,6 @@ header {
   z-index: 5;
 }
 
-main > div:first-child {
-  background-color: white;
-}
-
 nav::before {
   position: absolute;
   top: 0;
@@ -73,6 +69,10 @@ nav a:hover {
   color: #f72210;
 }
 
+.white-bg {
+  background: white;
+}
+
 .no-border {
   border: none;
 }
@@ -89,11 +89,6 @@ nav a:hover {
 .scroll-overflow {
   overflow-y: auto;
   padding-right: 15px;
-}
-
-.sticky-top {
-  position: sticky;
-  top: 0;
 }
 
 .red-header {
@@ -179,6 +174,12 @@ nav a:hover {
 
 .position-relative {
   position: relative;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 0;
 }
 
 .category {
