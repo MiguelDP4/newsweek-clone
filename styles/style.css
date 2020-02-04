@@ -91,6 +91,11 @@ nav a:hover {
   padding-right: 15px;
 }
 
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
+
 .red-header {
   height: 95px;
   padding: 20px 10px 15px;
