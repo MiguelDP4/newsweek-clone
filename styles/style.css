@@ -382,6 +382,23 @@ nav a:hover {
   display: none;
 }
 
+.magazine-features a {
+  color: black;
+  background-color: #f4f5f6;
+  text-align: center;
+}
+
+.magazine-features a:hover {
+  text-decoration: none;
+  background-color: #aaa;
+}
+
+.magazine-features svg {
+  width: 8px;
+  height: auto;
+  padding-bottom: 4px;
+}
+
 @media screen and (max-width: 1250px) {
   .latest-news {
     height: 80px;
