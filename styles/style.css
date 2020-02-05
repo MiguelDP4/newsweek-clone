@@ -381,16 +381,19 @@ nav a:hover {
 }
 
 .feature-image-container {
-  height: 311px;
   display: block;
-  padding-bottom: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .current-feature-image-container {
-  height: 387px;
-  padding-bottom: 100%;
   overflow: hidden;
+}
+
+.feature-image-container img {
+  width: 100%;
+  position: relative;
+  top: 0;
 }
 
 .magazine-features a {
@@ -405,8 +408,8 @@ nav a:hover {
 }
 
 .magazine-features img {
-  transform: translate(-50%,0%);
-  position: absolute;
+  transform: translate(-50%, 0%);
+  position: relative;
   top: 0;
   left: 50%;
 }
@@ -429,6 +432,14 @@ nav a:hover {
   width: 8px;
   height: auto;
   padding-bottom: 4px;
+}
+
+.category-feature {
+  position: absolute;
+  bottom: -387px;
+  left: 0;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 8px 15px 3px;
 }
 
 .category-feature a {
@@ -468,13 +479,42 @@ a.img-link-div {
   position: absolute;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
   background-color: transparent;
 }
 
 a.img-link-div:hover {
   background-color: transparent;
+}
+
+.last-feature-category span {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.editor-pick-image-container img {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.editor-pick-category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 8px 15px 3px;
+}
+
+.editor-pick-category a {
+  color: #f72210;
+  cursor: pointer;
+}
+
+.editor-pick-category a:hover {
+  color: #f72210;
 }
 
 @media screen and (max-width: 1250px) {
@@ -596,6 +636,6 @@ a.img-link-div:hover {
   }
 
   .current-feature-image-container img {
-    width:100%;
+    width: 100%;
   }
 }
