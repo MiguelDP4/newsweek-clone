@@ -174,10 +174,6 @@ nav a:hover {
   height: auto;
 }
 
-.position-relative {
-  position: relative;
-}
-
 .sticky-top {
   position: sticky;
   top: 0;
@@ -384,6 +380,19 @@ nav a:hover {
   display: none;
 }
 
+.feature-image-container {
+  height: 311px;
+  display: block;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+.current-feature-image-container {
+  height: 387px;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
 .magazine-features a {
   color: black;
   background-color: #f4f5f6;
@@ -395,10 +404,77 @@ nav a:hover {
   background-color: #aaa;
 }
 
+.magazine-features img {
+  transform: translate(-50%,0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.magazine-features h2 {
+  line-height: 0.5em;
+}
+
+.magazine-features h2 a {
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.magazine-features h2 a:hover {
+  background-color: transparent;
+  text-decoration: underline red;
+}
+
 .magazine-features svg {
   width: 8px;
   height: auto;
   padding-bottom: 4px;
+}
+
+.category-feature a {
+  background-color: transparent;
+  color: #f72210;
+}
+
+.category-feature a:hover {
+  background-color: transparent;
+  color: #f72210;
+  cursor: pointer;
+}
+
+.feature-category {
+  margin-top: 8px;
+}
+
+.feature-category span {
+  padding: 3px 7px;
+  background-color: #f72210;
+  color: white;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  margin: 0 7px 0 0;
+}
+
+.feature-category a {
+  background-color: white;
+  color: #f72210;
+  text-decoration: none;
+}
+
+.feature-category a:hover {
+  background-color: white;
+}
+
+a.img-link-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+a.img-link-div:hover {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 1250px) {
@@ -505,5 +581,21 @@ nav a:hover {
   .latest-news img {
     width: 258px;
     height: auto;
+  }
+
+  .feature-image-container {
+    padding: 0;
+  }
+
+  .feature-image-container img {
+    width: 100%;
+  }
+
+  .current-feature-image-container {
+    padding: 0;
+  }
+
+  .current-feature-image-container img {
+    width:100%;
   }
 }
