@@ -537,6 +537,19 @@ a.img-link-div:hover {
   text-decoration: none;
 }
 
+.right-news-general img {
+  width: 135px;
+  height: auto;
+}
+
+.general-title h2 a {
+  color: red;
+}
+
+.general-title h2 a:hover {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1250px) {
   nav a {
     font-size: 14px;
