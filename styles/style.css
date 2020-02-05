@@ -160,11 +160,13 @@ nav a:hover {
   border-bottom: solid 1px #f4f5f6;
 }
 
-.search-button {
-  background: none;
-  margin: 0;
-  padding: 0;
-  border: none;
+.search-button::before {
+  font-family: "Material Icons";
+  content: '\e8b6';
+}
+
+.search-button input {
+  width: 100%;
 }
 
 .story img {
@@ -400,6 +402,10 @@ nav a:hover {
 }
 
 @media screen and (max-width: 1250px) {
+  nav a {
+    font-size: 14px;
+  }
+
   .latest-news {
     height: 80px;
     overflow: hidden;
