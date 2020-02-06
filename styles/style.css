@@ -30,6 +30,13 @@ h3 a {
   color: rgba(3, 3, 3, 0.4)
 }
 
+h4 {
+  color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 body {
   background-color: #f4f5f6;
   color: #333;
@@ -63,6 +70,23 @@ nav a {
 
 nav ul li:last-of-type a {
   border-right: none;
+}
+
+footer svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+footer .copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
 }
 
 nav a:hover {
@@ -549,6 +573,93 @@ a.img-link-div:hover {
 
 .general-title h2 a:hover {
   text-decoration: none;
+}
+
+.subscribe-square {
+  background-color: #f4f5f6;
+  height: 313px;
+}
+
+.subscribe-square h2 {
+  margin-bottom: 15px;
+  line-height: 28px;
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.magazine-cover-1 {
+  position: absolute;
+  top: 0;
+  left: 45px;
+}
+
+.magazine-cover-2 {
+  position: absolute;
+  top: 15px;
+  left: 125px;
+}
+
+.bottom-subscribe-button {
+  background-color: #f72210;
+  color: white;
+  padding: 6px 10px 6px 12px;
+  width: 115px;
+}
+
+.bottom-subscribe-button:hover {
+  background-color: #da1b27;
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px 6px 12px;
+}
+
+.bottom-subscribe-button svg {
+  width: 8px;
+  height: auto;
+  fill: white;
+  padding-bottom: 4px;
+}
+
+.newsletter-square {
+  height: 313px;
+}
+
+.newsletter-square h2 {
+  margin-bottom: 15px;
+  line-height: 28px;
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.bottom-signup-button {
+  background-color: #f72210;
+  color: white;
+  padding: 6px 10px 6px 12px;
+  width: 115px;
+}
+
+.bottom-signup-button:hover {
+  background-color: #da1b27;
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px 6px 12px;
+}
+
+.bottom-signup-button svg {
+  width: 8px;
+  height: auto;
+  fill: white;
+  padding-bottom: 4px;
+}
+
+.newsweek-phone {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  display: block;
+  padding-bottom: 313px;
 }
 
 @media screen and (max-width: 1250px) {
