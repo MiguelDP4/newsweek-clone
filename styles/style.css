@@ -644,7 +644,7 @@ a.img-link-div:hover {
   background-color: #f72210;
   color: white;
   padding: 6px 10px 6px 12px;
-  width: 115px;
+  width: 90px;
 }
 
 .bottom-signup-button:hover {
@@ -703,8 +703,8 @@ a.img-link-div:hover {
 
 .languages-bar ul li {
   display: inline;
-  padding-right: 10px;
-  margin-right: 20px;
+  padding-right: 20px;
+  margin-right: 16px;
   border-right: #d9d9d9 1px solid;
 }
 
@@ -721,10 +721,33 @@ a.img-link-div:hover {
 }
 
 .languages-bar ul li:first-of-type {
+  padding-right: 8px;
   font-weight: bold;
   border-right: none;
   color: gray;
+}
 
+.info-bar ul {
+  padding: 0;
+}
+
+.info-bar ul li {
+  display: inline;
+  padding-right: 16px;
+  margin-right: 12px;
+  border-right: #d9d9d9 1px solid;
+}
+
+.info-bar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+
+.info-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 1250px) {
