@@ -23,6 +23,20 @@ h3 a {
   color: rgba(3, 3, 3, 0.4);
 }
 
+nav a {
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333;
+  border-right: #aaa 1px solid;
+}
+
+.category a {
+  color: #f72210;
+  text-decoration: none;
+}
+
 h2 a:hover {
   color: black;
   text-decoration: underline;
@@ -377,20 +391,6 @@ footer .copyright {
 
 .latest-news h2 {
   line-height: 0.5em;
-}
-
-nav a {
-  font-size: 21px;
-  line-height: 24px;
-  font-weight: bold;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #333;
-  border-right: #aaa 1px solid;
-}
-
-.category a {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .tag a {
