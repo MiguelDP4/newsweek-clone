@@ -37,6 +37,25 @@ nav a {
   text-decoration: none;
 }
 
+.tag a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #272727;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.magazine-features a {
+  color: black;
+  background-color: #f4f5f6;
+  text-align: center;
+}
+
 h2 a:hover {
   color: black;
   text-decoration: underline;
@@ -98,6 +117,11 @@ nav a:hover {
 
 .latest-news h2 a {
   font-size: 17px;
+}
+
+.magazine-features h2 a {
+  background-color: transparent;
+  font-size: 20px;
 }
 
 nav ul li:last-of-type a {
@@ -393,19 +417,6 @@ footer .copyright {
   line-height: 0.5em;
 }
 
-.tag a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #272727;
-  font-weight: 400;
-  display: inline-block;
-  background-color: #c2d4d7;
-  padding-left: 6px;
-  padding-right: 6px;
-  margin-right: 6px;
-  margin-bottom: 6px;
-}
-
 .border-bottom-spacer {
   display: none;
 }
@@ -436,17 +447,6 @@ footer .copyright {
 
 .magazine-features h2 {
   line-height: 0.5em;
-}
-
-.magazine-features h2 a {
-  background-color: transparent;
-  font-size: 20px;
-}
-
-.magazine-features a {
-  color: black;
-  background-color: #f4f5f6;
-  text-align: center;
 }
 
 .magazine-features h2 a:hover {
