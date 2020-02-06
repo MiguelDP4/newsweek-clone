@@ -82,12 +82,12 @@ nav a:hover {
   font-size: 15px;
 }
 
-nav ul li:last-of-type a {
-  border-right: none;
-}
-
 .latest-news h2 a {
   font-size: 17px;
+}
+
+nav ul li:last-of-type a {
+  border-right: none;
 }
 
 .newsletter-signup-container a:hover {
