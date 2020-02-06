@@ -249,6 +249,10 @@ nav a:hover {
   font: bold 15px/15px "Roboto Condensed", sans-serif;
 }
 
+.newsletter-signup-container a:last-of-type:hover {
+  background-color: transparent;
+}
+
 .newsletter-signup-container a svg {
   width: 8px;
   height: auto;
