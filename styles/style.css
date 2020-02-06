@@ -589,16 +589,21 @@ a.img-link-div:hover {
   font-weight: bold;
 }
 
+.subscribe-square .col-5 {
+  height: 313px;
+  width: 100%;
+}
+
 .magazine-cover-1 {
   position: absolute;
-  top: 0;
-  left: 45px;
+  top: -30px;
+  left: 20px;
 }
 
 .magazine-cover-2 {
   position: absolute;
-  top: 15px;
-  left: 125px;
+  top: 0;
+  left: 70px;
 }
 
 .bottom-subscribe-button {
@@ -690,6 +695,36 @@ a.img-link-div:hover {
 
 .linkedin:hover {
   color: rgb(0, 119, 181);
+}
+
+.languages-bar ul {
+  padding: 0;
+}
+
+.languages-bar ul li {
+  display: inline;
+  padding-right: 10px;
+  margin-right: 20px;
+  border-right: #d9d9d9 1px solid;
+}
+
+.languages-bar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+
+.languages-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.languages-bar ul li:first-of-type {
+  font-weight: bold;
+  border-right: none;
+  color: gray;
+
 }
 
 @media screen and (max-width: 1250px) {
