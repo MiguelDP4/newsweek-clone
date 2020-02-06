@@ -15,18 +15,18 @@ h2 a {
   font-weight: bold;
 }
 
-h2 a:hover {
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #f72210;
-}
-
 h3,
 h3 a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: rgba(3, 3, 3, 0.4);
+}
+
+h2 a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 h4 {
@@ -58,13 +58,8 @@ nav::before {
   border-top: 13px solid #f72210;
 }
 
-nav a {
-  font-size: 21px;
-  line-height: 24px;
-  font-weight: bold;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #333;
-  border-right: #aaa 1px solid;
+.related li a {
+  color: black;
 }
 
 nav ul li:last-of-type a {
@@ -184,7 +179,7 @@ nav a:hover {
 }
 
 .search-button::before {
-  font-family: "Material Icons";
+  font-family: 'Material Icons';
   content: '\e8b6';
 }
 
@@ -247,6 +242,11 @@ nav a:hover {
   font: bold 15px/15px "Roboto Condensed", sans-serif;
 }
 
+.related li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .newsletter-signup-container a:last-of-type:hover {
   background-color: transparent;
 }
@@ -262,13 +262,8 @@ nav a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 8px 15px 3px 14px;
-}
-
-.category a {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .related {
@@ -289,15 +284,6 @@ nav a:hover {
   border-bottom: 1px solid #d9d9d9;
 }
 
-.related li a {
-  color: black;
-}
-
-.related li a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 .culture-travel {
   background-color: #f4f5f6;
 }
@@ -314,12 +300,26 @@ nav a:hover {
   line-height: normal;
 }
 
+nav a {
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333;
+  border-right: #aaa 1px solid;
+}
+
+.category a {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .culture-travel h2 a:hover {
   text-decoration: none;
 }
 
 .culture-travel p {
-  color: rgba(39, 39, 39, .5);
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .tag a {
@@ -464,7 +464,7 @@ nav a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 8px 15px 3px 14px;
 }
 
