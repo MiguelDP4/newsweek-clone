@@ -688,12 +688,10 @@ a.img-link-div:hover {
 
 .instagram:hover {
   color: rgb(64, 93, 230);
-  ;
 }
 
 .tumblr:hover {
   color: rgb(53, 70, 92);
-  ;
 }
 
 .linkedin:hover {
@@ -789,7 +787,7 @@ a.img-link-div:hover {
     height: 50px;
   }
 
-  .red-header-content date {
+  .current-date {
     display: none;
   }
 
