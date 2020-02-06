@@ -112,6 +112,15 @@ nav ul li:last-of-type a {
   background-color: #aaa;
 }
 
+.newsletter-signup-container a:first-of-type {
+  width: 100px;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  background-color: #666;
+}
+
 .opinion h2 a:hover {
   text-decoration: none;
   color: #f72210;
@@ -267,19 +276,6 @@ footer .copyright {
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
-}
-
-nav ul li:last-of-type a {
-  border-right: none;
-}
-
-.newsletter-signup-container a:first-of-type {
-  width: 100px;
-  padding: 10px 10px 10px 12px;
-  color: white;
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  background-color: #666;
 }
 
 .related li a:hover {
