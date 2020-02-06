@@ -662,6 +662,36 @@ a.img-link-div:hover {
   padding-bottom: 313px;
 }
 
+.social-media {
+  width: 26px !important;
+  height: 26px !important;
+  font-size: 26px !important;
+  margin-left: 15px;
+  display: block;
+  cursor: pointer;
+  color: rgb(102,102,102);
+}
+
+.facebook:hover {
+  color: rgb(59, 89, 152);
+}
+
+.twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.instagram:hover {
+  color: rgb(64, 93, 230);;
+}
+
+.tumblr:hover {
+  color: rgb(53, 70, 92);;
+}
+
+.linkedin:hover {
+  color: rgb(0, 119, 181);
+}
+
 @media screen and (max-width: 1250px) {
   nav a {
     font-size: 14px;
