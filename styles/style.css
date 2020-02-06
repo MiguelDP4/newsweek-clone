@@ -330,8 +330,19 @@ footer .copyright {
   color: #f72210;
 }
 
+.magazine-features h2 a:hover {
+  background-color: transparent;
+  text-decoration: underline red;
+}
+
 .newsletter-signup-container a:last-of-type:hover {
   background-color: transparent;
+}
+
+.magazine-features svg {
+  width: 8px;
+  height: auto;
+  padding-bottom: 4px;
 }
 
 .newsletter-signup-container a svg {
@@ -447,17 +458,6 @@ footer .copyright {
 
 .magazine-features h2 {
   line-height: 0.5em;
-}
-
-.magazine-features h2 a:hover {
-  background-color: transparent;
-  text-decoration: underline red;
-}
-
-.magazine-features svg {
-  width: 8px;
-  height: auto;
-  padding-bottom: 4px;
 }
 
 .category-feature {
