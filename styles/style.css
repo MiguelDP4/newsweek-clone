@@ -25,7 +25,6 @@ h3,
 h3 a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
-  font-stretch: 100%;
   font-weight: 700;
   color: rgba(3, 3, 3, 0.4)
 }
@@ -132,7 +131,7 @@ nav a:hover {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.red-header-content date {
+.current-date  {
   color: white;
 }
 
@@ -313,7 +312,6 @@ nav a:hover {
   color: #333;
   font-weight: 400;
   font-size: 20px;
-  font-stretch: 100%;
   line-height: normal;
 }
 
@@ -678,7 +676,7 @@ a.img-link-div:hover {
   margin-left: 15px;
   display: block;
   cursor: pointer;
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
 }
 
 .facebook:hover {
@@ -690,11 +688,13 @@ a.img-link-div:hover {
 }
 
 .instagram:hover {
-  color: rgb(64, 93, 230);;
+  color: rgb(64, 93, 230);
+  ;
 }
 
 .tumblr:hover {
-  color: rgb(53, 70, 92);;
+  color: rgb(53, 70, 92);
+  ;
 }
 
 .linkedin:hover {
