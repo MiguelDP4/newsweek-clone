@@ -386,8 +386,9 @@ nav a:hover {
   position: relative;
 }
 
-.current-feature-image-container {
-  overflow: hidden;
+.current-feature-image-container img {
+  width: 100%;
+  height: auto;
 }
 
 .feature-image-container img {
@@ -434,13 +435,9 @@ nav a:hover {
   padding-bottom: 4px;
 }
 
-.see-features {
-  background-color: ;
-}
-
 .category-feature {
   position: absolute;
-  bottom: -387px;
+  bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, .9);
   padding: 8px 15px 3px;
