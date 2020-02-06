@@ -103,10 +103,6 @@ nav ul li:last-of-type a {
   color: #c2d4d7;
 }
 
-.latest-news h2 a {
-  font-size: 17px;
-}
-
 .magazine-features a:hover {
   text-decoration: none;
   background-color: #aaa;
@@ -267,6 +263,10 @@ footer .copyright {
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
+}
+
+.latest-news h2 a {
+  font-size: 17px;
 }
 
 nav ul li:last-of-type a {
