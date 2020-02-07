@@ -72,6 +72,22 @@ nav a {
   cursor: pointer;
 }
 
+.counter a {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
 h2 a:hover {
   color: black;
   text-decoration: underline;
@@ -151,6 +167,10 @@ nav ul li:last-of-type a {
 .newsletter-signup-container a:hover {
   color: white;
   background-color: #999;
+  text-decoration: none;
+}
+
+.general-title h2 a:hover {
   text-decoration: none;
 }
 
@@ -383,6 +403,20 @@ footer .copyright {
   padding-bottom: 4px;
 }
 
+.bottom-subscribe-button svg {
+  width: 8px;
+  height: auto;
+  fill: white;
+  padding-bottom: 4px;
+}
+
+.bottom-signup-button svg {
+  width: 8px;
+  height: auto;
+  fill: white;
+  padding-bottom: 4px;
+}
+
 .newsletter-signup-container a svg {
   width: 8px;
   height: auto;
@@ -556,26 +590,6 @@ a.img-link-div:hover {
   height: auto;
 }
 
-.counter a {
-  width: 70px;
-  height: 52px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 58px;
-  text-indent: 5px;
-  text-align: center;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-  color: #e9212e;
-}
-
-.general-title h2 a:hover {
-  text-decoration: none;
-}
-
 .subscribe-square {
   background-color: #f4f5f6;
   height: 313px;
@@ -621,13 +635,6 @@ a.img-link-div:hover {
   padding: 6px 10px 6px 12px;
 }
 
-.bottom-subscribe-button svg {
-  width: 8px;
-  height: auto;
-  fill: white;
-  padding-bottom: 4px;
-}
-
 .newsletter-square {
   height: 313px;
 }
@@ -653,13 +660,6 @@ a.img-link-div:hover {
   color: white;
   text-decoration: none;
   padding: 6px 10px 6px 12px;
-}
-
-.bottom-signup-button svg {
-  width: 8px;
-  height: auto;
-  fill: white;
-  padding-bottom: 4px;
 }
 
 .newsweek-phone {
