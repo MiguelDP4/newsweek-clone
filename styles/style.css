@@ -373,7 +373,7 @@ footer .copyright {
   border-bottom: solid 1px #f4f5f6;
 }
 
-.search-button::before {
+.search-button::after {
   font-family: 'Material Icons', Arial, Helvetica, sans-serif;
   content: '\e8b6';
 }
