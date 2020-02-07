@@ -642,7 +642,7 @@ a.img-link-div:hover {
   font-weight: bold;
 }
 
-.subscribe-square .col-5 {
+.subscribe-square .col-sm-5 {
   height: 313px;
   width: 100%;
 }
@@ -874,7 +874,7 @@ a.img-link-div:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 574px) {
   .w-100-small {
     width: 100% !important;
   }
@@ -899,5 +899,33 @@ a.img-link-div:hover {
     top: -16px;
     right: 62px;
     font-size: 13px;
+  }
+
+  .subscribe-square {
+    background-color: #f4f5f6;
+    height: 500px;
+  }
+
+  .top-subscribe-column {
+    top: -100px;
+  }
+
+  .magazine-cover-1 {
+    transform: translate(50%, 0);
+    left: 0;
+  }
+
+  .magazine-cover-2 {
+    transform: translate(50%, 0);
+    left: 16%;
+  }
+
+  .bottom-subscribe-column { 
+    top: 135px;
+    text-align: center;
+  }
+
+  .bottom-subscribe-button {
+    margin: 0 auto;
   }
 }
