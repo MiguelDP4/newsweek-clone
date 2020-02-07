@@ -56,6 +56,11 @@ nav a {
   text-align: center;
 }
 
+.category-feature a {
+  background-color: transparent;
+  color: #f72210;
+}
+
 h2 a:hover {
   color: black;
   text-decoration: underline;
@@ -157,6 +162,12 @@ nav ul li:last-of-type a {
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   background-color: #666;
+}
+
+.category-feature a:hover {
+  background-color: transparent;
+  color: #f72210;
+  cursor: pointer;
 }
 
 .opinion h2 a:hover {
@@ -466,17 +477,6 @@ footer .copyright {
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 8px 15px 3px 14px;
-}
-
-.category-feature a {
-  background-color: transparent;
-  color: #f72210;
-}
-
-.category-feature a:hover {
-  background-color: transparent;
-  color: #f72210;
-  cursor: pointer;
 }
 
 .feature-category {
