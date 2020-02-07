@@ -213,16 +213,6 @@ nav ul li:last-of-type a {
   color: #f72210;
 }
 
-.languages-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.info-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .feature-category a:hover {
   background-color: white;
 }
@@ -244,6 +234,21 @@ nav ul li:last-of-type a {
 .opinion h2 a:hover {
   text-decoration: none;
   color: #f72210;
+}
+
+.related li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.languages-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.info-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 footer svg {
@@ -396,11 +401,6 @@ footer .copyright {
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
-}
-
-.related li a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .culture-travel h2 a:hover {
