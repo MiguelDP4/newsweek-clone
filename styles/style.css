@@ -184,16 +184,6 @@ nav ul li:last-of-type a {
   text-decoration: none;
 }
 
-.languages-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.info-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .newsletter-signup-container a:last-of-type {
   color: #333;
   font: bold 15px/15px "Roboto Condensed", sans-serif;
@@ -221,6 +211,16 @@ nav ul li:last-of-type a {
 
 .editor-pick-category a:hover {
   color: #f72210;
+}
+
+.languages-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.info-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .feature-category a:hover {
