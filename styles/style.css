@@ -61,6 +61,17 @@ nav a {
   color: #f72210;
 }
 
+.feature-category a {
+  background-color: white;
+  color: #f72210;
+  text-decoration: none;
+}
+
+.editor-pick-category a {
+  color: #f72210;
+  cursor: pointer;
+}
+
 h2 a:hover {
   color: black;
   text-decoration: underline;
@@ -168,6 +179,10 @@ nav ul li:last-of-type a {
   background-color: transparent;
   color: #f72210;
   cursor: pointer;
+}
+
+.editor-pick-category a:hover {
+  color: #f72210;
 }
 
 .opinion h2 a:hover {
@@ -491,12 +506,6 @@ footer .copyright {
   margin: 0 7px 0 0;
 }
 
-.feature-category a {
-  background-color: white;
-  color: #f72210;
-  text-decoration: none;
-}
-
 .feature-category a:hover {
   background-color: white;
 }
@@ -532,15 +541,6 @@ a.img-link-div:hover {
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 8px 15px 3px 14px;
-}
-
-.editor-pick-category a {
-  color: #f72210;
-  cursor: pointer;
-}
-
-.editor-pick-category a:hover {
-  color: #f72210;
 }
 
 .counter a {
