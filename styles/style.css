@@ -160,6 +160,20 @@ nav a:hover {
   color: red;
 }
 
+.languages-bar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+
+.info-bar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+
 nav ul li:last-of-type a {
   border-right: none;
 }
@@ -170,8 +184,14 @@ nav ul li:last-of-type a {
   text-decoration: none;
 }
 
-.general-title h2 a:hover {
+.languages-bar ul li a:hover {
   text-decoration: none;
+  color: black;
+}
+
+.info-bar ul li a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .newsletter-signup-container a:last-of-type {
@@ -199,12 +219,6 @@ nav ul li:last-of-type a {
   background-color: #666;
 }
 
-.category-feature a:hover {
-  background-color: transparent;
-  color: #f72210;
-  cursor: pointer;
-}
-
 .editor-pick-category a:hover {
   color: #f72210;
 }
@@ -215,6 +229,16 @@ nav ul li:last-of-type a {
 
 .counter a:hover {
   text-decoration: none;
+}
+
+.general-title h2 a:hover {
+  text-decoration: none;
+}
+
+.category-feature a:hover {
+  background-color: transparent;
+  color: #f72210;
+  cursor: pointer;
 }
 
 .opinion h2 a:hover {
@@ -444,6 +468,20 @@ footer .copyright {
   padding: 10px 0;
   margin: 0;
   list-style-type: none;
+}
+
+.languages-bar ul li {
+  display: inline;
+  padding-right: 20px;
+  margin-right: 16px;
+  border-right: #d9d9d9 1px solid;
+}
+
+.info-bar ul li {
+  display: inline;
+  padding-right: 16px;
+  margin-right: 12px;
+  border-right: #d9d9d9 1px solid;
 }
 
 .related li:last-of-type {
@@ -702,25 +740,6 @@ a.img-link-div:hover {
   padding: 0;
 }
 
-.languages-bar ul li {
-  display: inline;
-  padding-right: 20px;
-  margin-right: 16px;
-  border-right: #d9d9d9 1px solid;
-}
-
-.languages-bar ul li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  color: gray;
-}
-
-.languages-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .languages-bar ul li:first-of-type {
   padding-right: 8px;
   font-weight: bold;
@@ -730,25 +749,6 @@ a.img-link-div:hover {
 
 .info-bar ul {
   padding: 0;
-}
-
-.info-bar ul li {
-  display: inline;
-  padding-right: 16px;
-  margin-right: 12px;
-  border-right: #d9d9d9 1px solid;
-}
-
-.info-bar ul li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  color: gray;
-}
-
-.info-bar ul li a:hover {
-  text-decoration: none;
-  color: black;
 }
 
 @media screen and (max-width: 1250px) {
