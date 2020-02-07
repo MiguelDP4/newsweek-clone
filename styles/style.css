@@ -872,31 +872,32 @@ a.img-link-div:hover {
   .current-feature-image-container img {
     width: 100%;
   }
-  @media screen and (max-width: 425px) {
-    .w-100-small {
-      width: 100% !important;
-    }
+}
 
-    .menu-icon {
-      display: block;
-      position: absolute;
-      width: 30px;
-      top: -15px;
-      right: 20px;
-    }
+@media screen and (max-width: 425px) {
+  .w-100-small {
+    width: 100% !important;
+  }
 
-    .sign-in-button {
-      position: absolute;
-      top: -16px;
-      right: 148px;
-      font-size: 13px;
-    }
-  
-    .subscribe-button {
-      position: absolute;
-      top: -16px;
-      right: 62px;
-      font-size: 13px;
-    }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    width: 30px;
+    top: -15px;
+    right: 20px;
+  }
+
+  .sign-in-button {
+    position: absolute;
+    top: -16px;
+    right: 148px;
+    font-size: 13px;
+  }
+
+  .subscribe-button {
+    position: absolute;
+    top: -16px;
+    right: 62px;
+    font-size: 13px;
   }
 }
