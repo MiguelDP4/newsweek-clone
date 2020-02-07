@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/MiguelDP4/newsweek-clone/developing/index.html)
 
 
 ## Authors
