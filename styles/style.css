@@ -221,14 +221,14 @@ nav ul li:last-of-type a {
   text-decoration: none;
 }
 
-.general-title h2 a:hover {
-  text-decoration: none;
-}
-
 .category-feature a:hover {
   background-color: transparent;
   color: #f72210;
   cursor: pointer;
+}
+
+.general-title h2 a:hover {
+  text-decoration: none;
 }
 
 .opinion h2 a:hover {
@@ -239,6 +239,20 @@ nav ul li:last-of-type a {
 .related li a:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.culture-travel h2 a:hover {
+  text-decoration: none;
+}
+
+.latest-news h2 a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.magazine-features h2 a:hover {
+  background-color: transparent;
+  text-decoration: underline red;
 }
 
 .languages-bar ul li a:hover {
@@ -401,20 +415,6 @@ footer .copyright {
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
-}
-
-.culture-travel h2 a:hover {
-  text-decoration: none;
-}
-
-.latest-news h2 a:hover {
-  text-decoration: none;
-  color: #f72210;
-}
-
-.magazine-features h2 a:hover {
-  background-color: transparent;
-  text-decoration: underline red;
 }
 
 .newsletter-signup-container a:last-of-type:hover {
