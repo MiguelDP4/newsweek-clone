@@ -874,7 +874,7 @@ a.img-link-div:hover {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .w-100-small {
     width: 100% !important;
   }
