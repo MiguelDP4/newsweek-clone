@@ -185,6 +185,14 @@ nav ul li:last-of-type a {
   color: #f72210;
 }
 
+.feature-category a:hover {
+  background-color: white;
+}
+
+.counter a:hover {
+  text-decoration: none;
+}
+
 .opinion h2 a:hover {
   text-decoration: none;
   color: #f72210;
@@ -506,10 +514,6 @@ footer .copyright {
   margin: 0 7px 0 0;
 }
 
-.feature-category a:hover {
-  background-color: white;
-}
-
 a.img-link-div {
   position: absolute;
   top: 0;
@@ -543,6 +547,15 @@ a.img-link-div:hover {
   padding: 8px 15px 3px 14px;
 }
 
+.right-news-general img {
+  width: 135px;
+  height: auto;
+}
+
+.general-title h2 a {
+  color: red;
+}
+
 .counter a {
   width: 70px;
   height: 52px;
@@ -557,19 +570,6 @@ a.img-link-div:hover {
   text-align: center;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
-}
-
-.counter a:hover {
-  text-decoration: none;
-}
-
-.right-news-general img {
-  width: 135px;
-  height: auto;
-}
-
-.general-title h2 a {
-  color: red;
 }
 
 .general-title h2 a:hover {
